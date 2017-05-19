@@ -1,0 +1,134 @@
+/*
+
+Craftyslide CSS Styles
+
+*/
+body{
+    background-image: url(imagens/nerd.jpg);
+    background-size: cover;
+}
+
+#nome_jogador_1, #nome_jogador_2 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Times New Roman', serif;
+    text-shadow: 4px 4px 3px rgba(65,105,255, 0.5),-4px -4px 3px rgba(65,105,255, 0.5);
+}
+#slideshow1, #slideshow2 {
+	margin:0;
+	padding:0;
+	position:relative;
+	border:15px solid #fff;
+	-webkit-box-shadow:0 3px 5px #999;
+	-moz-box-shadow:0 3px 5px #999;
+	box-shadow:0 3px 5px #999;
+}
+
+#slideshow1 ul {
+	position:relative;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+#slideshow2 ul {
+	position:relative;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+#slideshow1 ul li {
+	position:absolute;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#slideshow2 ul li {
+	position:absolute;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#pagination_j1 {
+	clear:both;
+	width:75px;
+	margin:25px auto 0;
+	padding:0;
+}
+#pagination_j2 {
+	clear:both;
+	width:75px;
+	margin:25px auto 0;
+	padding:0;
+}
+
+#pagination_j1 li {
+	list-style:none;
+	float:left;
+	margin:0 2px;
+}
+
+#pagination_j2 li {
+	list-style:none;
+	float:left;
+	margin:0 2px;
+}
+
+#pagination_j1 li a {
+	display:block;
+	width:10px;
+	height:10px;
+	text-indent:-10000px;
+	background:url(imagens/pagination.png);
+}
+
+#pagination_j2 li a {
+	display:block;
+	width:10px;
+	height:10px;
+	text-indent:-10000px;
+	background:url(imagens/pagination.png);
+}
+
+#pagination_j1 li a.active {
+	background-position:0 10px;
+}
+
+#pagination_j2 li a.active {
+	background-position:0 10px;
+}
+
+.caption_j1 {
+	width:100%;
+	margin:0;
+	padding:10px;
+	position:absolute;
+	left:0;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:lighter;
+	color:#fff;
+	border-top:1px solid #000;
+	background:rgba(0,0,0,0.6);
+}
+
+.caption_j2 {
+	width:100%;
+	margin:0;
+	padding:10px;
+	position:absolute;
+	left:0;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:lighter;
+	color:#fff;
+	border-top:1px solid #000;
+	background:rgba(0,0,0,0.6);
+}
